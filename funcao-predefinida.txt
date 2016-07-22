@@ -1,0 +1,34 @@
+algoritmo "semnome"
+
+var
+nome : caracter
+vlr1 : inteiro
+vlr2 : real
+
+inicio
+
+nome <- "FranJun"
+
+escreval("Retorna um inteiro contendo o comprimento (quantidade de caracteres) da expressão")
+escreval(Compr(nome))
+escreval("")
+
+escreval("Retorna um número inteiro gerado aleatoriamente")
+vlr1 <- Randi(100)
+escreval(vlr1)
+escreval("")
+
+escreval("Retorna um número real geraldo aleatoriamente")
+vlr2 <- Rand()
+escreval(vlr2)
+escreval("")
+
+escreval("Retorna um valor caracter contendo a expressão em maiúsculas")
+escreval(Maiusc(nome))
+escreval("")
+
+escreval("Retorna um valor caracter contendo a expressão em minúsculas")
+escreval(Minusc(nome))
+escreval("")
+ 
+fimalgoritmo
